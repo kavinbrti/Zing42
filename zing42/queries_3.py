@@ -18,7 +18,7 @@ monthly = con.myCursor.fetchall()
 monthly = pd.DataFrame(monthly)
 
 monthly.columns=['SYMBOL','CLOSE','OPEN']
-print(monthly)
+
 
 gain_arr = []
 
